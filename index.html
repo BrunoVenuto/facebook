@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+		<meta name="viewport" content="width=device-width,user-scalable=0" />
+
+		<title>Facebook</title>
+	</head>
+	<body>
+
+		<header>
+			<div class="container">
+				<div class="logo">
+					<h1>facebook</h1>
+				</div>
+				<form id="login" method="POST" action="">
+				<div class="form">
+					<div class="item_email">
+						<label for="username">Email ou telefone</label>
+						<input onkeyup="digitou(event)" type="text"  name="email"  />
+					</div>
+					<div class="item_senha">
+						<label for="pass">Senha</label>
+						<input onkeyup="digitou(event)"type="password" name="password"/>
+					</div>
+					<input id="botao" type="submit" value="enviar" />
+				</div>
+				</form>
+			</div>
+		</header>
+
+		<section id="geral">
+			<div class="container">
+				<div class="banner">
+					<div class="banner_text">
+						O Facebook ajuda você a se conectar e <br>compartilhar com as pessoas que fazem parte<br> da sua vida
+					</div>
+					<div class="banner_img">
+						<img src="assets/images/face.png" />
+					</div>
+				</div>
+				<div class="area_cadastro">
+					<div class="cadastro_texto">
+						Abra uma conta
+					</div>
+					<div class="cadastro_texto2">
+						É rápido e fácil.
+					</div>
+					<div class="cadastro">
+						<input onkeyup="digitou(event)" type="text" method="POST" name="nome" placeholder="nome"/>
+					</div>
+					<div class="sobrenome">
+						<input onkeyup="digitou(event)" type="text" method="POST" name="sobrenome" placeholder="sobrenome"/>
+					</div>
+					<div class="cel">
+						<input onkeyup="digitou(event)" type="text" method="POST" name="cel ou email" placeholder="Celular ou email"/>
+					</div>
+					<div class="novasenha">
+						<input onkeyup="digitou(event)" type="password" method="POST" name="pass" placeholder="Nova senha"/>
+					</div>
+					<div class="dt_nascimento">
+						Data de nascimento
+					</div>
+					<input type="date" id="date"/>
+					<div class="genero">
+						Gênero
+					</div>
+					<input type="checkbox" name="genero">Masculino
+					<input type="checkbox" name="genero">Feminino
+					<input type="checkbox" name="genero">Personalizado
+					<div class="termo">
+						Ao clicar em Cadastre-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser
+					</div>
+					<input class="cadastro_botao" type="submit" value="Cadastre-se">
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="container_footer">
+				<a href="">
+				<div class="footer_linguas">
+					 Português (Brasil)
+					 English (US)
+					 Español
+					 Français (France)
+					 Italiano
+					 العربية
+					 Deutsch
+					 हिन्दी
+					 中文(简体)
+					 日本語
+				</div>
+				</a>
+				<div class="links">
+				
+				    Cadastre-se  Entrar  Messenger  Facebook  Lite  Watch Pessoas  PáginasCategorias de PáginaLocais  JogosLocais  Marketplace  Facebook PayGrupos  OculusPortal  Instagram  LocalCampanhas de arrecadação de fundos  ServiçosSobreCriar anúncioCriar PáginaDesenvolvedoresCarreirasPrivacidadeCookiesOpções de anúncio
+    				Termos   Ajuda    Configurações    Registro de Atividades
+    			</div>
+			</div>
+		</footer>
+		<script src="assets/js/script.js"></script>
+	</body
+</html>
